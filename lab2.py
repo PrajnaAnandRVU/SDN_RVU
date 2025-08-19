@@ -27,3 +27,5 @@ print("Accuracy:", accuracy_score(y_test, y_pred))
 sample = [[5.1, 3.5, 1.4, 0.2]]  # Sepal length, sepal width, petal length, petal width
 prediction = model.predict(sample)
 print("Predicted class:", iris.target_names[prediction][0])
+
+# cvsn
